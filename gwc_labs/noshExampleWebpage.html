@@ -51,16 +51,33 @@ body{ background-repeat: no-repeat;
 
 <div class= "choose" >
 <a href="https://www.google.com/">
-    <img alt="" src="logo.jpg" width="450" height="250"> <br>
+    <img width="350" height="150" onmouseover= "big(this)" onmouseout="small(this)" alt="earth" src="logo.jpg" > <br>
 </a>
 </div>
 
 
 <div class="hel">
-  <img alt="" src="https://media.giphy.com/media/iMMfCfD9TLuCY/giphy.gif"
+  <img alt=" Gif of Earth" src="https://media.giphy.com/media/iMMfCfD9TLuCY/giphy.gif"
   width="1000" height="150">
 </div>
 
 </center>
+
+
+<p id= "s"> Hi!! </p>
+
+<script>
+
+function big(x){
+  x.style.height="250px";
+  x.style.width="450px"
+}
+function small(x){
+    x.style.height="150px";
+    x.style.width="350px"
+}
+</script>
+
+
 </body>
 </html>
